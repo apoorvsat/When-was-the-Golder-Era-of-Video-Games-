@@ -16,7 +16,7 @@ In this project, you'll analyze video game critic and user scores as well as sal
 Your search will involve joining datasets and comparing results with set theory. You'll also filter, group, and order data. Make sure you brush up on these skills before trying this project! The database contains two tables. Each table has been limited to 400 rows for this project, but you can find the complete dataset with over 13,000 games on Kaggle.
 
 ## Tables
-`game_sales` table:
+1. `game_sales` table:
 
 | Column       | Definition                        | Data Type |
 |--------------|-----------------------------------|-----------|
@@ -30,7 +30,7 @@ Your search will involve joining datasets and comparing results with set theory.
 The complete dataset of the `game_sales` table is available in [this file](game_sales.csv).
 
 
-`reviews` table:
+2. `reviews` table:
 
 | Column       | Definition                                    | Data Type |
 |--------------|-----------------------------------------------|-----------|
@@ -41,7 +41,7 @@ The complete dataset of the `game_sales` table is available in [this file](game_
 The complete dataset of `reviews` table is available in [this file](reviews.csv).
 
 
-`users_avg_year_rating` table:
+3. `users_avg_year_rating` table:
 
 | Column          | Definition                                           | Data Type |
 |-----------------|------------------------------------------------------|-----------|
@@ -52,7 +52,7 @@ The complete dataset of `reviews` table is available in [this file](reviews.csv)
 The complete dataset of `users_avg_year_rating` table is available in [this file](users_avg_year_rating.csv).
 
 
-`critics_avg_year_rating` table:
+4. `critics_avg_year_rating` table:
 
 | Column           | Definition                                            | Data Type |
 |------------------|-------------------------------------------------------|-----------|
