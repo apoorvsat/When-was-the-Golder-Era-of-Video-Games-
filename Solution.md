@@ -27,7 +27,8 @@ Your search will involve joining datasets and comparing results with set theory.
 | games_sold   | Number of copies sold (millions)  | float     |
 | year         | Release year                      | int       |
 
-The complete dataset is available in [this file](game_sales.csv).
+The complete dataset of the `game_sales` table is available in [this file](game_sales.csv).
+
 
 `reviews` table:
 
@@ -37,7 +38,8 @@ The complete dataset is available in [this file](game_sales.csv).
 | critic_score | Critic score according to Metacritic         | float     |
 | user_score   | User score according to Metacritic           | float     |
 
-The complete dataset is available in [this file](reviews.csv).
+The complete dataset of `reviews` table is available in [this file](reviews.csv).
+
 
 `users_avg_year_rating` table:
 
@@ -47,7 +49,8 @@ The complete dataset is available in [this file](reviews.csv).
 | num_games       | Number of games released that year                    | int       |
 | avg_user_score  | Average score of all the games ratings for the year  | float     |
 
-The complete dataset is available in [this file](users_avg_year_rating.csv).
+The complete dataset of `users_avg_year_rating` table is available in [this file](users_avg_year_rating.csv).
+
 
 `critics_avg_year_rating` table:
 
@@ -57,13 +60,13 @@ The complete dataset is available in [this file](users_avg_year_rating.csv).
 | num_games        | Number of games released that year                    | int       |
 | avg_critic_score | Average score of all the games ratings for the year  | float     |
 
-The complete dataset is available in [this file](critics_avg_year_rating.csv).
+The complete dataset of `critics_avg_year_rating` is available in [this file](critics_avg_year_rating.csv).
 
 ---
 
 # Questions:
 
-### 1. Find the ten best-selling games. The output should contain all the columns in the `game_sales` table and be sorted by the `games_sold` column in descending order.
+#### 1. Find the ten best-selling games. The output should contain all the columns in the `game_sales` table and be sorted by the `games_sold` column in descending order.
 
 ## Query: 
 
@@ -90,7 +93,7 @@ LIMIT 10
 
 
 
-### 2. Find the ten years with the highest average critic score, where at least four games were released (to ensure a good sample size). Return an output with the columns year, `num_games` released, and `avg_critic_score`. The `avg_critic_score` should be rounded to 2 decimal places. The table should be ordered by `avg_critic_score` in descending order.
+#### 2. Find the ten years with the highest average critic score, where at least four games were released (to ensure a good sample size). Return an output with the columns year, `num_games` released, and `avg_critic_score`.<br> The `avg_critic_score` should be rounded to 2 decimal places. The table should be ordered by `avg_critic_score` in descending order.
 
 ## Query:
 
@@ -121,7 +124,7 @@ LIMIT 10
 | 2017 | 13        | 8.62             |
 
 
-### 3. Find the years where critics and users broadly agreed that the games released were highly rated. Specifically, return the years where the average critic score was over 9 OR the average user score was over 9. The pre-computed average critic and user scores per year are stored in `users_avg_year_rating` and `critics_avg_year_rating` tables respectively. The query should return the following columns: `year`, `num_games`, `avg_critic_score`, `avg_user_score`, and diff. The diff column should be the difference between the `avg_critic_score` and `avg_user_score`. The table should be ordered by the year in ascending order.
+#### 3. Find the years where critics and users broadly agreed that the games released were highly rated. Specifically, return the years where the average critic score was over 9 OR the average user score was over 9. <br>The pre-computed average critic and user scores per year are stored in `users_avg_year_rating` and `critics_avg_year_rating` tables respectively. The query should return the following columns: `year`, `num_games`, `avg_critic_score`, `avg_user_score`, and diff. <br>The diff column should be the difference between the `avg_critic_score` and `avg_user_score`. The table should be ordered by the year in ascending order.
 
 ## Approach:
 
