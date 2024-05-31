@@ -5,10 +5,13 @@ This repository contains the solution of DataCamp's SQL Project- When was the Go
 
 ---
 ## 🧾 Abstract
-As the global gaming market continues to soar, reaching an estimated worth of over $300 billion by 2027, the quest for the next blockbuster game intensifies among major publishers. This project delves into the realm of video game analysis, scrutinizing critic and user scores alongside sales data for the top 400 video games spanning from 1977 to the present day. Through meticulous examination, the project seeks to uncover patterns that may indicate a golden age of gaming and shed light on the evolving landscape of the industry. Employing techniques such as data joining, set theory comparisons, filtering, grouping, and ordering, this endeavor offers insights into the trajectory of video games and the underlying factors influencing their success. While the dataset provided for this project is limited to 400 entries, the broader gaming community dataset with over 13,000 games on Kaggle serves as a rich resource for further exploration and analysis.
+As the gaming market is set to exceed $300 billion by 2027, major publishers are racing to create the next big hit. This project looks at video games by analyzing critic and user scores, and sales data for the top 400 games from 1977 to today. By studying these elements, we aim to find patterns that highlight the best times in gaming and understand how the industry has changed. Using methods like data joining, set theory comparisons, filtering, grouping, and ordering, this analysis reveals trends and factors that lead to a game's success. While this project focuses on 400 games, a larger dataset with over 13,000 games on Kaggle provides more opportunities for deeper research.
 
 
-The solution and analysis is available in the [Solution](Solution.md) file. 
+The solution and analysis is available in the [Solution](Solution.md) file.
+
+You may access the dataset provided in the [Data](Data) file to practice on your own. 
+
 
 --- 
 
